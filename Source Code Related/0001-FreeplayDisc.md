@@ -53,7 +53,7 @@ switch (menuType)
 ```
 
 Add:
-```
+```hx
 if (isMenuItemCentered)
 			{
 				var lerpVal:Float = CoolUtil.boundTo(elapsed * 9.6, 0, 1);
