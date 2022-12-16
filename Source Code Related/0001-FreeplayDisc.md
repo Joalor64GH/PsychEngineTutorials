@@ -38,18 +38,13 @@ Then, remove the duplicate line in `if (isMenuItem)`.
 
 After:
 ```hx
-switch (menuType)
-			{
-				case 'Centered':
-					y = FlxMath.lerp(y, (scaledY * yMult) + (FlxG.height * 0.5), 0.32);
-				default:
-					y = FlxMath.lerp(y, (scaledY * yMult) + (FlxG.height * 0.48) + yAdd, lerpVal);
-					if(forceX != Math.NEGATIVE_INFINITY) {
-						x = forceX;
-					} else {
-						x = FlxMath.lerp(x, (targetY * 20) + 90 + xAdd, lerpVal);
-					}
+y = FlxMath.lerp(y, (scaledY * yMult) + (FlxG.height * 0.48) + yAdd, lerpVal);
+			if(forceX != Math.NEGATIVE_INFINITY) {
+				x = forceX;
+			} else {
+				x = FlxMath.lerp(x, (targetY * 20) + 90 + xAdd, lerpVal);
 			}
+		}
 ```
 
 Add:
