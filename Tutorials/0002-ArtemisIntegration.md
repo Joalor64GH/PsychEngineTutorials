@@ -533,4 +533,4 @@ class ArtemisIntegration {
 
 ### 2.3 Editing `ClientPrefs.hx`
 
-*sorry the rest is unfinished but i'll do it later
+*sorry the rest is unfinished but i'll do it later*
