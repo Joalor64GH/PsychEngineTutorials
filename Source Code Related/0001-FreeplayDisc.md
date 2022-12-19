@@ -1,12 +1,12 @@
 # Disc-Style Freeplay
-## 0.6.2 AND UNDER
 
 The files that will be modified:
 
 * Alphabet.hx
 * FreeplayState.hx
 
-## Step 1: Modifying `Alphabet.hx`
+## 0.6.2 AND UNDER
+### Step 1: Modifying `Alphabet.hx`
 To start this off, go to line 24.
 
 Underneath that line, add this:
@@ -94,7 +94,7 @@ if (isMenuItemCentered)
 
 And that's it for Alphabet.hx.
 
-## Step 2: Modifying `FreeplayState.hx`
+### Step 2: Modifying `FreeplayState.hx`
 Now for this, underneath:
 ```hx
 songText.isMenuItem = true;
@@ -109,7 +109,7 @@ And you're done.
 
 ## 0.6.3
 
-## Step 1: Modifying `Alphabet.hx`
+### Step 1: Modifying `Alphabet.hx`
 Go to line 30.
 
 Underneath that line, add this:
@@ -194,7 +194,7 @@ if (isMenuItemCentered)
 
 And that's it for Alphabet.hx.
 
-## Step 2: Modifying `FreeplayState.hx`
+### Step 2: Modifying `FreeplayState.hx`
 Underneath:
 ```hx
 songText.isMenuItem = true;
