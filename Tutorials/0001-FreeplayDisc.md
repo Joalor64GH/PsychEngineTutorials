@@ -108,7 +108,6 @@ songText.itemType = 'D-Shape';
 And you're done.
 
 ## 0.6.3
-
 ### Step 1: Modifying `Alphabet.hx`
 Go to line 30.
 
@@ -117,7 +116,7 @@ Underneath that line, add this:
 public var targetX:Float = 0;
 ```
 
-Then add these lines:
+Then, add these lines:
 ```hx
 public var yMult:Float = 120;
 public var xAdd:Float = 0;
