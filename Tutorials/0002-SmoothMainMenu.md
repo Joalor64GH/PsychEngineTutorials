@@ -38,13 +38,13 @@ menuItem.updateHitbox();
 Add:
 ```hx
 if (firstStart)
-					FlxTween.tween(menuItem,{y: 60 + (i * 160)},1 + (i * 0.25) ,{ease: FlxEase.expoInOut, onComplete: function(flxTween:FlxTween) 
-						{
-							finishedFunnyMove = true; 
-							changeItem();
-						}});
-				else
-					menuItem.y = 60 + (i * 160);
+	FlxTween.tween(menuItem,{y: 60 + (i * 160)},1 + (i * 0.25) ,{ease: FlxEase.expoInOut, onComplete: function(flxTween:FlxTween) 
+	    {
+		finishedFunnyMove = true; 
+		changeItem();
+	    }});
+	else
+	    menuItem.y = 60 + (i * 160);
 ```
 
 And there you go.
