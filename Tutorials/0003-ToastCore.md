@@ -266,8 +266,8 @@ And you're done.
 # EXAMPLE OF HOW IT'S USED
 ```hx
 case 'mods':
-				if (ModCore.trackedMods != [])
-					MusicBeatState.switchState(new ModsMenuState());
-				else
-					Main.toast.create('No Mods Installed!', 0xFFFFFF00, 'Please add mods to be able to access the menu!');
+	if (ModCore.trackedMods != [])
+		MusicBeatState.switchState(new ModsMenuState());
+	else
+		Main.toast.create('No Mods Installed!', 0xFFFFFF00, 'Please add mods to be able to access the menu!');
 ```
